@@ -2,6 +2,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .back-button {
@@ -19,14 +22,14 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    border: 2px solid #00ff00;
+    border: 2px solid #fcee0a;
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .back-button a:hover {
-    background-color: #00ff00;
+    background-color: #fcee0a;
     color: black;
 }
 
@@ -67,7 +70,7 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     background-color: transparent;
-    border: 2px solid #00ff00;
+    border: 2px solid #fcee0a;
     color: white;
     border-radius: 5px;
     text-align: center;
@@ -75,12 +78,12 @@ body {
 }
 
 .nav-buttons-box a:hover {
-    background-color: #00ff00;
+    background-color: #fcee0a;
     color: black;
 }
 
 .about-page {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center;
 }
@@ -111,21 +114,21 @@ body {
 }
 
 .hobbies-page {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center;
 }
 
 .hobbies-page header {
     text-align: center;
-    color: #00ff00;
+    color: #fcee0a;
 }
 
 .hobbies-page .hobby-entry {
     display: flex;
     align-items: flex-start;
     margin-bottom: 30px;
-    border: 2px solid #00ff00;
+    border: 2px solid #fcee0a;
     padding: 15px;
     background-color: rgba(0, 26, 0, 0.8); 
     border-radius: 10px;
@@ -144,7 +147,7 @@ body {
 
 .hobbies-page .hobby-info h2 {
     margin: 0;
-    color: #00ff00;
+    color: #fcee0a;
 }
 
 .hobbies-page .hobby-info p {
@@ -153,7 +156,7 @@ body {
 }
 
 .gallery-page {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center;
     
@@ -161,7 +164,7 @@ body {
 
 .gallery-page header {
     text-align: center;
-    color: #00ff00;
+    color: #fcee0a;
 }
 
 .gallery-grid {
@@ -175,7 +178,7 @@ body {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border: 2px solid #00ff00;
+    border: 2px solid #fcee0a;
     border-radius: 10px;
 }
 
@@ -184,7 +187,7 @@ footer {
     padding: 10px;
     background-color: rgba(0, 26, 0, 0.8);
     color: white;
-    border-top: 2px solid #00ff00;
+    border-top: 2px solid #fcee0a;
     margin-top: auto;
 }
 
@@ -202,4 +205,7 @@ footer {
     background-color: rgba(0, 26, 0, 0.8); 
     padding: 20px;
     border-radius: 10px;
+}
+.h1 {
+    color: #fff;
 }
