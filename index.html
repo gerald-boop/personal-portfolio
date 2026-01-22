@@ -20,25 +20,29 @@
             </div>
         </div>
         
-        <div class="nav-buttons-box">
-            <a href="hobbies.html">Hobbies</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="Education.html">Education</a>
-            <a href="Experience.html">Experience</a>
-            <a href="Skills.html">Skills</a>
-            <a href="Projects.html">Projects</a>
-            <a href="Contact.html">Contact</a>
-        </div>
+        <div class="nav-buttons-box" id="nav-buttons-box"></div>
     </div>
 
     <footer>
-        <p>Hey! I exist here too!:</p>
-        <div class="d-flex">
-            <a href="https://www.facebook.com/direwolf68" target="_blank"> <img src="images/Facebook-Logo.png" draggable="false" (dragstart)="false;" title="Facebook"
-                class="undraggable icons" onmouseover="hover(this);" onmouseout="unhover(this);" width="42" height="42"></a>
-            <a href="https://github.com/gerald-boop" target="_blank"> <img src="images/github-logo.webp" draggable="false" (dragstart)="false;" title="Github"
-                class="undraggable icons" onmouseover="hover(this);" onmouseout="unhover(this);" width="42" height="42"></a>
+        <div class="footer-row" style="display:flex; align-items:center; justify-content:space-between; gap:1rem;">
+            <div id="contact" style="max-width:60%;">
+                <h2>My current contacts</h2>
+                <p>phone: 09692569581</p>
+                <p>gmail: geraldjrcagaid@gmail.com</p>
+                <p>messenger: Gerald Cagaid</p>
+            </div>
+
+            <div class="social" style="text-align:right;">
+                <p style="margin:0 0 0.5rem 0;">Hey! I exist here too!:</p>
+                <div class="d-flex" style="gap:0.5rem; justify-content:flex-end;">
+                    <a href="https://www.facebook.com/direwolf68" target="_blank"> <img src="images/Facebook-Logo.png" draggable="false" (dragstart)="false;" title="Facebook"
+                        class="undraggable icons" onmouseover="hover(this);" onmouseout="unhover(this);" width="42" height="42"></a>
+                    <a href="https://github.com/gerald-boop" target="_blank"> <img src="images/github-logo.webp" draggable="false" (dragstart)="false;" title="Github"
+                        class="undraggable icons" onmouseover="hover(this);" onmouseout="unhover(this);" width="42" height="42"></a>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
